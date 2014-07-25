@@ -10,8 +10,11 @@ var MarroneSwagApp = React.createClass({
 		
 		return(
 			<div id="marroneSwagApp">
-				<MarroneSwag
-					text={"swag"} />
+
+				<MarroneSwag text={"SWAG"} />
+
+				<MarroneSwag text={"fuck the haters"} />
+				
 			</div>
 		);
 	}
