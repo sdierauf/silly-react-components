@@ -3,6 +3,7 @@
 var React = require('react');
 
 var MarroneSwag = require('./MarroneSwag.react');
+var MultiplicationTable = require('../multiplication_tables/MultiplicationTableApp.react');
 
 var MarroneSwagApp = React.createClass({
 
@@ -11,9 +12,16 @@ var MarroneSwagApp = React.createClass({
 		return(
 			<div id="marroneSwagApp">
 
-				<MarroneSwag text={"SWAG"} />
+				<MultiplicationTable />
 
-				<MarroneSwag text={"fuck the haters"} />
+				<MarroneSwag text={"I AM."} />
+
+				<MarroneSwag text={"SLAY"} />
+
+				<MarroneSwag text={"Double slay"} />
+
+				<MarroneSwag text={"FIERCE."} />
+ 
 				
 			</div>
 		);
